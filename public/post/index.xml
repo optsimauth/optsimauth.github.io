@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on 演示站点</title>
-        <link>https://example.com/post/</link>
+        <link>http://localhost:1313/post/</link>
         <description>Recent content in Posts on 演示站点</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Mon, 23 Sep 2024 21:36:32 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Sep 2024 21:36:32 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hugo学习笔记</title>
-        <link>https://example.com/p/hugo%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+        <link>http://localhost:1313/p/hugo%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Mon, 23 Sep 2024 21:36:32 +0800</pubDate>
         
-        <guid>https://example.com/p/hugo%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+        <guid>http://localhost:1313/p/hugo%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
         <description>&lt;h1 id=&#34;hugo图片存储问题&#34;&gt;Hugo图片存储问题
 &lt;/h1&gt;&lt;p&gt;由于渲染后的文件建构与原本放在content中post的文件结构不一样，因此会导致直接在VScode中粘贴图片，渲染后的博客无法显示图片，解决方法有以下三种&lt;/p&gt;
 &lt;ol&gt;
