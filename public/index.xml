@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>演示站点</title>
+        <link>https://example.com/</link>
+        <description>Recent content on 演示站点</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Mon, 23 Sep 2024 21:36:32 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo学习笔记</title>
+        <link>https://example.com/p/hugo%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Mon, 23 Sep 2024 21:36:32 +0800</pubDate>
+        
+        <guid>https://example.com/p/hugo%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+        <description>&lt;h1 id=&#34;hugo图片存储问题&#34;&gt;Hugo图片存储问题
+&lt;/h1&gt;&lt;p&gt;由于渲染后的文件建构与原本放在content中post的文件结构不一样，因此会导致直接在VScode中粘贴图片，渲染后的博客无法显示图片，解决方法有以下三种&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;图片放在根目录/static/img下，引用方式为&amp;quot;![](/img/1727101461771.png)&amp;quot; 通过这种方式引用图片，但是这种方式会导致图片无法在本地预览，而且操作繁琐&lt;/li&gt;
+&lt;li&gt;图床引用，将图片上传到图床，通过图床链接引用图片(学习中ing)&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
