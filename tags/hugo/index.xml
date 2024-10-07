@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on optsimauth的博客</title><link>https://optsimauth.github.io/tags/hugo/</link><description>Recent content in Hugo on optsimauth的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Mon, 23 Sep 2024 21:36:32 +0800</lastBuildDate><atom:link href="https://optsimauth.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo学习笔记</title><link>https://optsimauth.github.io/p/hugo%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Mon, 23 Sep 2024 21:36:32 +0800</pubDate><guid>https://optsimauth.github.io/p/hugo%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="hugo图片存储问题">Hugo图片存储问题
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on optsimauth的博客</title><link>https://optsimauth.github.io/tags/hugo/</link><description>Recent content in Hugo on optsimauth的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Mon, 07 Oct 2024 08:41:07 +0000</lastBuildDate><atom:link href="https://optsimauth.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo学习笔记</title><link>https://optsimauth.github.io/p/hugo%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Mon, 23 Sep 2024 21:36:32 +0800</pubDate><guid>https://optsimauth.github.io/p/hugo%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="hugo图片存储问题">Hugo图片存储问题
 &lt;/h2>&lt;p>由于渲染后的文件建构与原本放在content中post的文件结构不一样，因此会导致直接在VScode中粘贴图片，渲染后的博客无法显示图片，解决方法有以下三种&lt;/p>
 &lt;ol>
 &lt;li>直接引用到static下的img目录中&lt;/li>
@@ -258,6 +258,8 @@
 &lt;/span>&lt;span class="lnt">249
 &lt;/span>&lt;span class="lnt">250
 &lt;/span>&lt;span class="lnt">251
+&lt;/span>&lt;span class="lnt">252
+&lt;/span>&lt;span class="lnt">253
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">baseurl&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://example.com &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 网站的基本 URL 。替换为你自己的网站域名。&lt;/span>&lt;span class="w">
@@ -511,9 +513,13 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">lineNos&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 是否在代码块中显示行号。&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">lineNumbersInTable&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 是否在表格样式中显示行号。&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">tabWidth&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">4&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 代码块中 Tab 的宽度（空格数）。&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">frontmatter&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">lastmod&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;:fileModTime&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;lastmod&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 配置修后修改时间&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>参考学习网站
 &lt;a class="link" href="https://leng-yd.github.io/p/build-your-personal-blog-with-hugo/" target="_blank" rel="noopener"
->从零到一，用 Hugo 打造你的个人网站 (leng-yd.github.io)&lt;/a>
-Test&lt;/p></description></item></channel></rss>
+>从零到一，用 Hugo 打造你的个人网站 (leng-yd.github.io)&lt;/a>&lt;/p>
+&lt;p>最后修改时间配置教程网站
+&lt;a class="link" href="https://shitao5.org/posts/hugo-stack/#:~:text=%E4%BF%AE%E6%94%B9%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F.%20%E8%AE%BE%E7%BD%AE" target="_blank" rel="noopener"
+>Hugo Stack 主题添加「最后修改于」 - Shitao Wu | 吴诗涛 (shitao5.org)&lt;/a>&lt;/p></description></item></channel></rss>
