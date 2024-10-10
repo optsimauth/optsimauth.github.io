@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on optsimauth的博客</title><link>https://optsimauth.github.io/post/</link><description>Recent content in Posts on optsimauth的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Mon, 07 Oct 2024 13:56:00 +0800</lastBuildDate><atom:link href="https://optsimauth.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>ToDoList使用方法</title><link>https://optsimauth.github.io/p/todolist%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</link><pubDate>Mon, 07 Oct 2024 13:56:00 +0800</pubDate><guid>https://optsimauth.github.io/p/todolist%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</guid><description>&lt;h1 id="中文版">中文版
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on optsimauth的博客</title><link>https://optsimauth.github.io/post/</link><description>Recent content in Posts on optsimauth的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Thu, 10 Oct 2024 16:05:21 +0800</lastBuildDate><atom:link href="https://optsimauth.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>铁路工机具识别系统使用方法</title><link>https://optsimauth.github.io/p/%E9%93%81%E8%B7%AF%E5%B7%A5%E6%9C%BA%E5%85%B7%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</link><pubDate>Thu, 10 Oct 2024 16:05:21 +0800</pubDate><guid>https://optsimauth.github.io/p/%E9%93%81%E8%B7%AF%E5%B7%A5%E6%9C%BA%E5%85%B7%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</guid><description>&lt;img src="https://optsimauth.github.io/cover.png" alt="Featured image of post 铁路工机具识别系统使用方法" />&lt;h1 id="概览">概览
+&lt;/h1>&lt;p>该软件总共有三个页面，拍照识别，历史记录，设置三个页面
+&lt;img src="https://s2.loli.net/2024/10/10/BbClQwJkIsPiKf1.png"
+loading="lazy"
+alt="image.png"
+>
+拍照识别是核心功能，有拍照识别，对比结果等核心功能，历史记录则是保存每次识别结果，设置则是用于设置一些相关选项（目前设置功能未开发）&lt;/p>
+&lt;h1 id="拍照识别">拍照识别
+&lt;/h1>&lt;h2 id="功能介绍">功能介绍
+&lt;/h2>&lt;p>&lt;img src="https://s2.loli.net/2024/10/10/PfytEOs1qaC2QNm.png"
+loading="lazy"
+alt="image.png"
+>
+该页面下有三个标签页：拍照识别，照片 (前)，照片(后)&lt;/p>
+&lt;p>拍照识别标签页有两组按钮，分别清点前按钮组和清点后按钮组，清点前按钮组是在工作前保存原始的工具种类和数量，清点后按钮组则是在工作结束后，用于和工作前的工具种类和数量用于对比&lt;/p>
+&lt;p>考虑到一张图片可能无法囊括庞大的工具数量，因此该软件设计为在工作前和工作后都可以拍摄多张照片，识别对应的工具种类和数量，照片全部拍摄识别完成后再进行最终的对比。而开始识别按钮就是在照片全部拍摄识别完成后再点击，给出对应的比对结果&lt;/p>
+&lt;p>照片(前)标签页和照片(后) 标签页分别显示了通过“清点前拍照“按钮组，“清点后拍照”按钮组拍摄的照片，考虑到工人工作时间较长，照片 (前) 标签页在退出软件后仍然保存，防止工作前的原本的工具数量和数量等数据丢失，以便在工作结束后进行对比&lt;/p>
+&lt;h2 id="使用方法">使用方法
+&lt;/h2>&lt;ol>
+&lt;li>点击清点前按钮组中的“摄像机图标“或者“从图库中选择图片“，用于拍摄照片或者从图库中上传工具照片&lt;/li>
+&lt;li>上传对应照片后，会进入下面这样一个页面
+&lt;img src="https://s2.loli.net/2024/10/10/q958P6xfmvilRCJ.png"
+loading="lazy"
+alt="image.png"
+> &lt;br>
+总共分为三个部分，最上面的部分是识别结果部分，中间的部分是按钮部分，最下面的部分是识别表格部分, 该页面即为识别结果部分。考虑到模型识别结果会有偏差，因此添加了手动修改功能，在图片上点击对应位置即可添加标号，代表在此处标识没有被识别出来工具，同时表格也会更新。点击表格中彩色的标号可以删除对应的识别结果（目前最上面的图片暂时不会随表格同步更新，未来会添加此功能），对应结果如下图所示&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code class="language-image-layout-a" data-lang="image-layout-a">![image.png](https://s2.loli.net/2024/10/10/A5bhPuZCVWFmxip.png)
+![image.png](https://s2.loli.net/2024/10/10/9mKrlbf6nsBL7jM.png)
+&lt;/code>&lt;/pre>&lt;ol start="3">
+&lt;li>
+&lt;p>待人工检查完毕后，点击保存按钮即可保存本次识别结果（会在手机图库中同步保存图片的识别结果），保存后，可以在照片(前) 标签页看到识别的结果
+&lt;img src="https://s2.loli.net/2024/10/10/mLreZp4hRK2QWPB.png"
+loading="lazy"
+alt="440b8c6156edddb36d0fef21b386ac9.png"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&amp;ldquo;清点后拍照&amp;quot;按钮组使用同理&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>待全部图片上传完毕后，点击对应开始识别按钮，即可获得识别结果
+&lt;img src="https://s2.loli.net/2024/10/10/k2C3VFfWRNlDOjn.png"
+loading="lazy"
+alt="image.png"
+>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h1 id="历史记录">历史记录
+&lt;/h1>&lt;h2 id="功能介绍-1">功能介绍
+&lt;/h2>&lt;p>历史记录页面保存着每次的识别结果，方便日后查询，高亮显示的是当前日期，数字上画圈的代表当日有比对记录
+&lt;img src="https://s2.loli.net/2024/10/10/tVSjAIb4YTl1rEp.png"
+loading="lazy"
+alt="image.png"
+>&lt;/p>
+&lt;h2 id="使用方法-1">使用方法
+&lt;/h2>&lt;p>点击对应的数字即可查看完整比对结果，其中包含所有的图片数据和表格数据&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-image-layout-a" data-lang="image-layout-a">![image.png](https://s2.loli.net/2024/10/10/9OvzgQP1SytJsLa.png)
+![image.png](https://s2.loli.net/2024/10/10/Y2hpHWJsA9URSCl.png)
+&lt;/code>&lt;/pre>&lt;h1 id="设置">设置
+&lt;/h1>&lt;p>开发中，敬请期待&lt;/p></description></item><item><title>ToDoList使用方法</title><link>https://optsimauth.github.io/p/todolist%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</link><pubDate>Mon, 07 Oct 2024 13:56:00 +0800</pubDate><guid>https://optsimauth.github.io/p/todolist%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</guid><description>&lt;h1 id="中文版">中文版
 &lt;/h1>&lt;h2 id="总体介绍">总体介绍
 &lt;/h2>&lt;p>总共有两个页面，一个日历页面，一个四象限页面&lt;/p>
 &lt;ul>
