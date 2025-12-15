@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://optsimauth.github.io/posts/2025-12-15/</loc>
+    <loc>https://optsimauth.github.io/categories/</loc>
     <lastmod>2025-12-15T23:19:45+08:00</lastmod>
   </url><url>
     <loc>https://optsimauth.github.io/</loc>
@@ -11,8 +11,18 @@
     <loc>https://optsimauth.github.io/posts/</loc>
     <lastmod>2025-12-15T23:19:45+08:00</lastmod>
   </url><url>
-    <loc>https://optsimauth.github.io/categories/</loc>
+    <loc>https://optsimauth.github.io/categories/%E6%84%9F%E6%83%B3/</loc>
+    <lastmod>2025-12-15T23:19:45+08:00</lastmod>
+  </url><url>
+    <loc>https://optsimauth.github.io/posts/2025-12-15/</loc>
+    <lastmod>2025-12-15T23:19:45+08:00</lastmod>
   </url><url>
     <loc>https://optsimauth.github.io/tags/</loc>
+  </url><url>
+    <loc>https://optsimauth.github.io/about/</loc>
+  </url><url>
+    <loc>https://optsimauth.github.io/archives/</loc>
+  </url><url>
+    <loc>https://optsimauth.github.io/search/</loc>
   </url>
 </urlset>
