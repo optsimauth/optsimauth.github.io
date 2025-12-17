@@ -1,26 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Optsimauth&#39;s Blog</title>
-    <link>https://optsimauth.github.io/</link>
-    <description>Recent content on Optsimauth&#39;s Blog</description>
-    <generator>Hugo -- 0.152.2</generator>
-    <language>zh</language>
-    <lastBuildDate>Mon, 15 Dec 2025 23:19:45 +0800</lastBuildDate>
-    <atom:link href="https://optsimauth.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>开始</title>
-      <link>https://optsimauth.github.io/posts/2025-12-15/</link>
-      <pubDate>Mon, 15 Dec 2025 23:19:45 +0800</pubDate>
-      <guid>https://optsimauth.github.io/posts/2025-12-15/</guid>
-      <description>&lt;p&gt;我将记录一些我的所思所想&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>关于</title>
-      <link>https://optsimauth.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://optsimauth.github.io/about/</guid>
-      <description>about</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Optsimauth的博客</title>
+        <link>https://optsimauth.github.io/</link>
+        <description>Recent content on Optsimauth的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 15 Dec 2025 23:19:45 +0800</lastBuildDate><atom:link href="https://optsimauth.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>开始</title>
+        <link>https://optsimauth.github.io/p/%E5%BC%80%E5%A7%8B/</link>
+        <pubDate>Mon, 15 Dec 2025 23:19:45 +0800</pubDate>
+        
+        <guid>https://optsimauth.github.io/p/%E5%BC%80%E5%A7%8B/</guid>
+        <description>&lt;p&gt;我将记录一些我的所思所想&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>⏱ 时间轴</title>
+        <link>https://optsimauth.github.io/archives/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://optsimauth.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>🔍 搜索</title>
+        <link>https://optsimauth.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://optsimauth.github.io/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://optsimauth.github.io/about/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://optsimauth.github.io/about/</guid>
+        <description>&lt;p&gt;这里是about&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

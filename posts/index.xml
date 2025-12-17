@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Posts on Optsimauth&#39;s Blog</title>
-    <link>https://optsimauth.github.io/posts/</link>
-    <description>Recent content in Posts on Optsimauth&#39;s Blog</description>
-    <generator>Hugo -- 0.152.2</generator>
-    <language>zh</language>
-    <lastBuildDate>Mon, 15 Dec 2025 23:19:45 +0800</lastBuildDate>
-    <atom:link href="https://optsimauth.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>开始</title>
-      <link>https://optsimauth.github.io/posts/2025-12-15/</link>
-      <pubDate>Mon, 15 Dec 2025 23:19:45 +0800</pubDate>
-      <guid>https://optsimauth.github.io/posts/2025-12-15/</guid>
-      <description>&lt;p&gt;我将记录一些我的所思所想&lt;/p&gt;</description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on 我的博客</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Recent content in Posts on 我的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 18 Dec 2025 00:17:52 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>2025 12 18</title>
+        <link>http://localhost:1313/posts/2025-12-18/</link>
+        <pubDate>Thu, 18 Dec 2025 00:17:52 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/2025-12-18/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>开始</title>
+        <link>http://localhost:1313/posts/2025-12-15/</link>
+        <pubDate>Mon, 15 Dec 2025 23:19:45 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/2025-12-15/</guid>
+        <description>&lt;p&gt;我将记录一些我的所思所想&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>
